@@ -20,6 +20,7 @@ pip install SimpleITK numpy matplotlib
 
 ### 1. Preprocess a Reference CT Image to remain only liver region
 ```python
+# crop_reference_ct.py
 import SimpleITK as sitk
 import ImageProcessing as ip
 
@@ -50,6 +51,7 @@ if ct_out_fin:
 
 ### 2. Preprocess a Moving CT Image
 ```python
+# main.py
 import SimpleITK as sitk
 import ImageProcessing as ip
 
