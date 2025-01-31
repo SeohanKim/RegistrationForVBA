@@ -18,7 +18,7 @@ pip install SimpleITK numpy matplotlib
 
 ## Usage
 
-### 1. Preprocess a Reference CT Image
+### 1. Preprocess a Reference CT Image to remain only liver region
 ```python
 import SimpleITK as sitk
 import ImageProcessing as ip
