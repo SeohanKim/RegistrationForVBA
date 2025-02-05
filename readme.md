@@ -1,4 +1,4 @@
-# Liver CT Preprocessing
+# Liver CT registration for voxel-based analysis
 
 ## Overview
 This repository provides a set of Python scripts for preprocessing liver CT images. It includes functions for cropping the liver region based on segmentation masks, normalizing Hounsfield Unit (HU) values, and resampling CT images to match a reference CT.
